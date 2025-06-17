@@ -49,8 +49,9 @@ lol-highlight-dataset/
 │       ├── clip_features/
 │       ├── clip_query_features/
 │       └── slowfast_features/
-</details>
 ```
+</details>
+
 ## 📌 File Descriptions
 
 ### 🔹 `Complex_query_data/`
