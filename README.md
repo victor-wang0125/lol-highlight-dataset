@@ -10,6 +10,7 @@ This dataset supports research in vision-language models, multimodal retrieval, 
 
 <details>
 <summary>Click to expand</summary>
+```
 lol-highlight-dataset/
 ├── Complex_query_data/
 │   ├── highlight_test_release.jsonl
@@ -49,7 +50,7 @@ lol-highlight-dataset/
 │       ├── clip_query_features/
 │       └── slowfast_features/
 </details>
-
+```
 ## 📌 File Descriptions
 
 ### 🔹 `Complex_query_data/`
