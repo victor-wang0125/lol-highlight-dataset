@@ -9,40 +9,43 @@ This dataset supports research in vision-language models, multimodal retrieval, 
 ## 📁 Dataset Structure
 lol-highlight-dataset/
 ├── Complex_query_data/
-│ ├── features/
-| | ├── blip_aug_text_features_openai/
-| | ├── blip_features/
-| | ├── blip_video_features/
-| | ├── clip_aug_text_features_openai/
-| | ├── clip_features/
-| | ├── clip_text_features/
-| | ├── features_openai/
-│ │ └── slowfast_features/ 
-│ ├── highlight_test_release.jsonl
-│ ├── highlight_train_release.jsonl
-│ ├── highlight_train_release_paraphrased_openai
-│ └── highlight_val_release.jsonl
+│   ├── highlight_test_release.jsonl
+│   ├── highlight_train_release.jsonl
+│   ├── highlight_train_release_paraphrased_openai
+│   ├── highlight_val_release.jsonl
+│   └── features/
+│       ├── blip_aug_text_features_openai/
+│       ├── blip_features/
+│       ├── blip_video_features/
+│       ├── clip_aug_text_features_openai/
+│       ├── clip_features/
+│       ├── clip_text_features/
+│       ├── features_openai/
+│       └── slowfast_features/
+│
 ├── Simple_query_data/
-│ ├── features/
-| | ├── blip_aug_text_features_openai/
-| | ├── blip_features/
-| | ├── blip_video_features/
-| | ├── clip_aug_text_features_openai/
-| | ├── clip_features/
-| | ├── clip_text_features/
-| | ├── features_openai/
-│ │ └── slowfast_features/ 
-│ ├── highlight_train_release.jsonl
-│ ├── highlight_train_release_paraphrased_openai
-│ └── highlight_val_release.jsonl
+│   ├── highlight_train_release.jsonl
+│   ├── highlight_train_release_paraphrased_openai
+│   ├── highlight_val_release.jsonl
+│   └── features/
+│       ├── blip_aug_text_features_openai/
+│       ├── blip_features/
+│       ├── blip_video_features/
+│       ├── clip_aug_text_features_openai/
+│       ├── clip_features/
+│       ├── clip_text_features/
+│       ├── features_openai/
+│       └── slowfast_features/
+│
 ├── pretrain_data/
-│ ├── features/
-| | ├── blip_query_features/
-| | ├── blip_video_features/
-| | ├── clip_features/
-| | ├── clip_query_features/
-│ │ └── slowfast_features/ 
-│ └── pretrain_output_final.jsonl
+│   ├── pretrain_output_final.jsonl
+│   └── features/
+│       ├── blip_query_features/
+│       ├── blip_video_features/
+│       ├── clip_features/
+│       ├── clip_query_features/
+│       └── slowfast_features/
+
 
 ## 📌 File Descriptions
 
