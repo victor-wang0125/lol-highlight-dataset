@@ -1,8 +1,8 @@
 # lol-highlight-dataset
 
-A dataset for **Moment Retrieval (MR)** and **Highlight Detection (HD)** on professional *League of Legends* esports match videos.
+一個專為 **Moment Retrieval（關鍵時刻檢索）** 與 **Highlight Detection（精華片段偵測）** 任務所設計的資料集，內容來自《英雄聯盟》的職業電競賽事影片。
 
-This dataset supports research in vision-language models, multimodal retrieval, and esports video understanding.
+本資料集可用於視覺語言模型、多模態檢索與電競影片理解等研究領域。
 
 ---
 
@@ -10,7 +10,7 @@ This dataset supports research in vision-language models, multimodal retrieval, 
 
 
 <details>
-<summary>Click to expand</summary>
+<summary>點此展開</summary>
 
 ```
 lol-highlight-dataset/
@@ -56,44 +56,46 @@ lol-highlight-dataset/
 </details>
 
 
-## 📌 File Descriptions
+## 📌 檔案說明
 
 ### 🔹 `Complex_query_data/`
 
-Contains **manually written narrative queries** that include contextual elements such as map locations, player roles, or team status. Designed for evaluating **moment retrieval** under rich semantic understanding.
+內含敘事型複雜查詢語句，包含地圖位置、選手角色與團隊狀態等語意背景，設計用於評估需深度理解語意的 Moment Retrieval 任務。
 
 ### 🔹 `Simple_query_data/`
 
-Contains **event-based highlight queries** (e.g., "caps killed perkz") for **highlight detection tasks** focused on simpler sentence forms and kill-based saliency.
+內含事件型精華查詢語句（例如「caps 擊殺 perkz」），適用於以擊殺事件為核心、語句形式較簡單的 Highlight Detection 任務。
 
 ### 🔹 `pretrain_data/`
 
-Includes:
-- `features/`: `.npz` files containing **pre-extracted visual features** from SlowFast、BLIP and CLIP
-- `pretrain_output_final.jsonl`: Generated data used for pretraining with weak supervision
+包含以下內容：
+
+features/：使用 SlowFast、BLIP、CLIP 預先萃取的 .npz 特徵檔
+
+pretrain_output_final.jsonl：用於弱監督預訓練的生成資料
 
 ---
 
-## 🧪 Supported Tasks
+## 🧪 支援任務
 
 - **Moment Retrieval (MR)**  
-  Input: A narrative-style query  
-  Output: A timestamp span (start/end time) in the video that best matches the query
+  輸入：敘事型語句查詢
+  輸出：影片中最符合語意的開始與結束時間區間
 
 - **Highlight Detection (HD)**  
-  Input: Full-match video  
-  Output: Predicted highlight-worthy segments based on predefined metrics (e.g., saliency, narrative match)
+  輸入：完整賽事影片
+  輸出：根據預設指標（如重要性分數、敘事對應）預測出的精華片段時間區間
 
 ---
 
-## 📄 License
+## 📄 授權條款
 
-This dataset is made available **for academic research only**.  
-Commercial use, redistribution, or data scraping is prohibited unless with written permission.
+本資料集僅供學術研究使用。
+未經書面授權禁止用於商業用途、資料再分發或爬蟲擷取。
 
 ---
 
-## ✉️ Citation & Contact
+## ✉️ 引用與聯絡方式
 
 Maintainer: **Victor Wang**  
 GitHub: [@victor-wang0125](https://github.com/victor-wang0125)
